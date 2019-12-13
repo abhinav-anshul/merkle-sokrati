@@ -1,0 +1,67 @@
+.blog_testimonial_container {
+  //background-color: pink;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  .blog_container {
+    //background-color: green;
+    text-align: center;
+    .blog-heading {
+      text-transform: uppercase;
+      font-size: 2rem;
+      font-weight: 600;
+      text-decoration: underline;
+      text-align: left;
+    }
+    .gallery_image {
+      width: 60%;
+      margin-top: 2rem;
+    }
+    .gallery_content {
+      font-size: 1.5rem;
+      margin-top: 2rem;
+    }
+  }
+  .testimonial_container {
+    //background-color: orangered;
+
+    .testimonial-heading {
+      text-transform: uppercase;
+      text-align: left;
+      font-size: 2rem;
+      font-weight: 600;
+      text-decoration: underline;
+    }
+    .comment_container {
+      text-align: center;
+      border: 2px solid $main-color;
+      padding: 1.5rem;
+      margin-top: 4rem;
+      margin-right: 7rem;
+      font-size: 1.5rem;
+    }
+    .profile_container {
+      text-align: center;
+      .image_container {
+        .image-holder {
+          border-radius: 100rem;
+          width: 8%;
+          height: 8%;
+          margin-top: 2rem;
+        }
+      }
+      .image-name {
+        color: $main-color;
+        font-size: 1.5rem;
+        margin: 1rem;
+      }
+      .image-degree {
+        color: gray;
+        font-style: italic;
+        font-size: 1.5rem;
+      }
+    }
+  }
+}

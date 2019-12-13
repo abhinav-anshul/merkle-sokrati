@@ -1,0 +1,96 @@
+.contact_container {
+  //background-color: yellow;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 4rem;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  .about_us_container {
+    //background-color: pink;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    .about_us-heading {
+      text-transform: uppercase;
+      margin-bottom: 2rem;
+      font-size: 1.5rem;
+      font-weight: 900;
+    }
+    .about_us-content {
+      font-size: 1.2rem;
+      line-height: 2rem;
+    }
+  }
+
+  .blog_roll_container {
+    //background-color: green;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    .blog_roll-heading {
+      text-transform: uppercase;
+      margin-bottom: 2rem;
+      font-size: 1.5rem;
+      font-weight: 900;
+    }
+  }
+
+  .latest_news_container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    .latest_news-heading {
+      text-transform: uppercase;
+      margin-bottom: 2rem;
+      font-size: 1.5rem;
+      font-weight: 900;
+    }
+  }
+
+  .contact_us_container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    .contact_us-heading {
+      text-transform: uppercase;
+      margin-bottom: 2rem;
+      font-size: 1.5rem;
+      font-weight: 900;
+    }
+    .contact_us_main_container {
+      font-size: 1.4rem;
+      .email_container {
+        //background-color: green;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+      }
+    }
+
+    .phone_container {
+      //background-color: yellow;
+      display: flex;
+      justify-content: space-between;
+      padding-top: 0.5rem;
+      padding-bottom: 0.5rem;
+    }
+
+    .address_container {
+      //background-color: pink;
+      display: flex;
+      justify-content: space-between;
+      padding-top: 0.5rem;
+      padding-bottom: 0.5rem;
+    }
+  }
+}
+
+p {
+  font-size: 1.2rem;
+  cursor: pointer;
+}

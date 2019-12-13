@@ -1,0 +1,48 @@
+.portfolio_container {
+  //background-color: aquamarine;
+  margin-top: 5rem;
+  .portfolio-heading {
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: $main-color;
+    text-align: center;
+  }
+  .portfolio-text {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    padding-left: 20rem;
+    padding-right: 20rem;
+  }
+  .button_container {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    display: flex;
+    justify-content: center;
+  }
+  .images_container {
+    text-align: center;
+  }
+}
+
+button {
+  all: unset;
+  background-color: white; /* Green */
+  border: 2px solid black;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.2rem;
+}
+
+img {
+  height: auto;
+  width: 25%;
+}

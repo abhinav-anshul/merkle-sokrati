@@ -1,0 +1,30 @@
+.header_container {
+  background-color: $main-color;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 8rem;
+  padding-right: 8rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  .logo_container {
+    .main_logo {
+      width: 60%;
+    }
+  }
+  .button_container {
+    .btn {
+      all: unset;
+      cursor: pointer;
+      background-color: $main-color;
+      color: white;
+      padding: 1rem 1rem 1rem 1rem;
+      font-size: 1.7rem;
+      margin: 0rem 0.5rem 0rem 0.5rem;
+      border-radius: 1rem;
+    }
+    :hover {
+      background-color: white;
+      color: $main-color;
+    }
+  }
+}

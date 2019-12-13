@@ -1,0 +1,41 @@
+.banner_container {
+  .image_container {
+    height: 90vh;
+    background-image: linear-gradient(to right, #bf2153d8, #bf2153da),
+      url(../assets/banner-wallpaper.jpg);
+    background-size: cover;
+    background-position: top;
+    .welcome {
+      text-align: center;
+      padding-top: 10rem;
+      text-transform: uppercase;
+      font-size: 4rem;
+      color: white;
+    }
+    .mymedia {
+      color: white;
+      text-align: center;
+      font-size: 9rem;
+      text-transform: uppercase;
+    }
+    .webdesign {
+      color: white;
+      text-align: center;
+      font-size: 3rem;
+      text-transform: uppercase;
+    }
+    .banner-button-container {
+      text-align: center;
+      margin-top: 10rem;
+      .button-what {
+        background-color: $main-color;
+        color: white;
+        border: 2px solid white;
+      }
+      .button-enquiry {
+        color: $main-color;
+        border: 2px solid white;
+      }
+    }
+  }
+}
